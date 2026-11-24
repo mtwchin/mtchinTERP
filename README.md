@@ -36,10 +36,10 @@ Do not commit `credentialsDontPost/.env`. The `.gitignore` file excludes it. A q
 ## 3. Create the GitHub repository
 
 1. Sign in to GitHub. The local GitHub CLI login for `mtwchin` currently needs to be renewed if the CLI will be used.
-2. Create a repository named exactly `mtwchinTERP`.
+2. Create a repository named exactly `mtchinTERP`.
 3. Make the repository public.
 4. Commit this project folder, including `package-lock.json` but excluding `node_modules` and `.env`.
-5. Push the commit to `https://github.com/mtwchin/mtwchinTERP`.
+5. Push the commit to `https://github.com/mtwchin/mtchinTERP`.
 6. Open that URL in an incognito/private browser window and confirm the files are visible without signing in.
 
 One possible command sequence after creating the empty GitHub repository is:
@@ -49,7 +49,7 @@ git init
 git add .
 git commit -m "Complete hosting project"
 git branch -M main
-git remote add origin https://github.com/mtwchin/mtwchinTERP.git
+git remote add origin https://github.com/mtwchin/mtchinTERP.git
 git push -u origin main
 ```
 
@@ -57,7 +57,7 @@ git push -u origin main
 
 1. Sign in to Render with GitHub.
 2. Select Add New, then Web Service.
-3. Connect the public `mtwchinTERP` repository.
+3. Connect the public `mtchinTERP` repository.
 4. Use `mtwchinTERP` as the service name if it is available.
 5. Select Node as the language/runtime.
 6. Set the build command to `npm install`.
@@ -85,12 +85,12 @@ The list should show exactly four movies after clearing and inserting once. If t
 1. Open `deploy/index.shtml`.
 2. If Render assigned a different URL, replace all four `mtwchinterp.onrender.com` links.
 3. Upload the whole `deploy` folder to the TerpConnect personal web area. Do not rename it to `terpconnect_static_site`.
-4. Open `https://www.terpconnect.umd.edu/~mtwchin/deploy/` and click every link.
-5. Run the course hosting verification page with directory ID `mtwchin`.
+4. Open `https://www.terpconnect.umd.edu/~mtchin/deploy/` and click every link.
+5. Run the course hosting verification page with directory ID `mtchin`.
 
 ## Final check
 
-- Repository name is exactly `mtwchinTERP`.
+- Repository name is exactly `mtchinTERP`.
 - GitHub repository is public in an incognito window.
 - Render root, clear, insert, and list routes work.
 - A separate MongoDB connection string is used for this project.
