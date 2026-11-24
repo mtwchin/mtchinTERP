@@ -1,12 +1,11 @@
 {
   "name": "mtwchinterp",
   "version": "1.0.0",
-  "description": "CMSC335 Project 7 - Hosting",
+  "description": "CMSC335 hosting project",
   "main": "MoviesSystem.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node MoviesSystem.js",
-    "test": "node --check MoviesSystem.js"
+    "start": "node MoviesSystem.js"
   },
   "author": "Matthew Chin",
   "license": "ISC",
